@@ -121,7 +121,6 @@ private fun vk(amount: Int, sumMonth: Int) = if ((15000_00 < amount) || (sumMont
     procent1
 }
 
-
 private fun print(perevod: Double, procent1: Double) {
     println("Всего списано за перевод: ${Math.round(perevod * 100.0) / 100.0}")
     println("Сумма комиссии за перевод: ${Math.round(procent1 * 100.0) / 100.0}")
