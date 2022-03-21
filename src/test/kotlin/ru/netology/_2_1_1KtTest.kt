@@ -14,7 +14,7 @@ class _2_1_1KtTest {
         val type: Int = 1
         val sumMonth: Int = 10_000_00
         val amount: Int = 74999_99
-        val expectedTransfer = 1
+        val expectedTransfer = 0
         // act
         val transfer = commission(
             type,
